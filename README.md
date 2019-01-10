@@ -15,3 +15,5 @@ $ npm run dev
 ```
 
 Brower http://localhost:3000/, and config MetaMask connect to the same Geth with pet-shop.
+
+![demo](https://github.com/gtt116/pet-shop-box/raw/master/pet-shop.png)
