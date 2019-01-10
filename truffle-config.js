@@ -3,8 +3,9 @@ module.exports = {
   // for more about customizing your Truffle configuration!
   networks: {
     development: {
-      host: "127.0.0.1",
-      port: 7545,
+      host: "user:pass@11.22.33.44",  // Change host to your Geth external IP
+      port: 30001,    // Change port to you Geth external port
+      gasPrice: 0,
       network_id: "*" // Match any network id
     }
   }
